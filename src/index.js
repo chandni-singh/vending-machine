@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from 'react-router-dom';
 
 ReactDOM.render(
+  // Wrapping App component with browser router to enable client-side routing
   <BrowserRouter>
     <App />
   </BrowserRouter>,

@@ -1,0 +1,14 @@
+.Message {
+    padding: 2rem;
+    margin: auto;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    text-transform: uppercase;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.Message a {
+    color: azure;
+}

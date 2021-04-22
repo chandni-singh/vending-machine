@@ -5,6 +5,7 @@ import './NavBar.css';
 class NavBar extends Component {
     render() {
         return (
+            // Defining links
             <div className = 'NavBar'>
                 <NavLink exact activeClassName = "active-link" to = '/'>Home</NavLink>
                 <NavLink exact activeClassName = "active-link" to = '/chips'>Chips</NavLink>

@@ -11,8 +11,11 @@ import NavBar from './NavBar';
 function App() {
   return (
     <div className = 'App'>
+
+      {/* Displaying imported navigation links */}
       <NavBar />
 
+      {/* Defining routes */}
       <Switch>
           <Route exact path = '/' component = {VendingMachine} />
           <Route exact path = '/chips' component = {Chips} />  
