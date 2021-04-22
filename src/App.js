@@ -6,10 +6,13 @@ import Chips from './Chips';
 import Sardines from './Sardines';
 import Soda from './Soda';
 import VendingMachine from './VendingMachine';
+import NavBar from './NavBar';
 
 function App() {
   return (
     <div className = 'App'>
+      <NavBar />
+
       <Switch>
           <Route exact path = '/' component = {VendingMachine} />
           <Route exact path = '/chips' component = {Chips} />  
